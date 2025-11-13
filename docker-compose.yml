@@ -21,7 +21,7 @@ services:
       - convex
 
   convex:
-    image: node:20
+    image: node:25
     working_dir: /usr/src/app
     volumes:
       - .:/usr/src/app
